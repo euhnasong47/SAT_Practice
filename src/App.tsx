@@ -43,6 +43,10 @@ function App() {
   return (
     <div className="container">
       <h1>SAT Vocabulary Builder</h1>
+      
+      <div className="word-counter">
+        Card {currentIndex + 1} of {words.length}
+      </div>
 
       <FlashCard 
         word={currentWord}
