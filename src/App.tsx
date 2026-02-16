@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import './App.css';
-import FlashCard from './components/FlashCard';
+import FlashCard from './components/Flashcard';
 import Navigation from './components/Navigation';
 import AddWordForm from './components/AddWordForm';
-import { VocabWord } from './types/VocabWord';
+import type { VocabWord } from './types/VocabWord';
 import { defaultWords } from './data/defaultWords';
 
 function App() {
